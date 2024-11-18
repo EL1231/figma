@@ -1,0 +1,108 @@
+/* reset */
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+    color:#7D7987
+}
+header {
+    margin-top: 56px;
+}
+
+
+nav {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+header nav ul{
+    display: flex;
+    width: 545px;
+    justify-content: right;
+    column-gap: 40px;
+    margin-right: 160px;
+}
+
+
+header nav div.logo img {
+    display: flex;
+    width: 160px;
+    height: 41px;
+    position: relative;
+    margin-left: 160px;
+
+
+}
+
+header nav div ul li a {
+    color: #7D7987;
+    font-weight: 400;
+    font-size: 18px;
+
+
+}
+.nr1 {
+    color: #1F1534;
+    font-weight: 700;
+}
+header nav div ul li a:hover{
+    color: #1F1534;
+    font-weight: 700;}
+
+    section.blocks {
+        display: flex;
+        justify-content: space-between;
+
+    }
+    section.blocks div.blocks-bin {
+        width: 445px;
+        height: 338px;
+        margin-top: 200px;
+        margin-left: 160px;
+    }
+    h1 {
+        font-weight: 700;
+        font-size: 48px;
+        color:#000000;
+        margin-bottom: 25px;
+        
+    }
+section.blocks img {
+    width: 693px;
+    height: 598px;
+    margin-right: 130px;
+}
+section.blocks div.blocks-bin p {
+    font-weight: 300;
+    font-size: 21px;
+}
+
+section.blocks div.blocks-bin a button {
+    margin-top: 45px;
+    height: 56px;
+    width: 200px;
+    border-radius: 55px;
+    background-color: #458FF6;
+    border-color: #458FF6;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+section.blocks div.blocks-bin a button:hover {
+    background-color: white;
+    color: #458FF6;
+    cursor: pointer;
+
+}
